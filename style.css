@@ -1,0 +1,54 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('vet.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 200vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.kotak {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.904); 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.664);
+}
+
+label,
+input {
+    display: block;
+    margin-bottom: 12px;
+}
+
+.form-input {
+    padding: 10px;
+    width: 100%;
+    border: none;
+    background: #e0dede;
+    border-radius: 5px;
+    margin-bottom: 12px;
+}
+
+#btn-daftar {
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#btn-daftar:hover {
+    background-color: #0056b3;
+}
